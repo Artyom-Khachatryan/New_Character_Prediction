@@ -1,1 +1,1 @@
-Vanilla RNN from scratch. I print my loss result and prediction, in every 1000 iteration. In the end I plot loss_function graph.
+Vanilla RNN from scratch. I create model using class. In my class I have 4 functions(train, sample, loss_function, plot_graph). In train functions I call sample, which return sentence.Also I use loss_function in my train function(for back propagation). During training I print my loss result and prediction, in every 1000 iteration. During_traing I add loss results and  epochs, then I use it for ploting loss graph.
